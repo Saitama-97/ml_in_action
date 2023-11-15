@@ -6,6 +6,8 @@
   @Project : ml_in_action
   @Author  : Saitama
   @IDE     : PyCharm
-  @Desc    : K近邻算法 - knn
+  @Desc    : K近邻算法 - knn - 鸢尾花分类
 """
 
+from sklearn.datasets import load_iris
+from sklearn.model_selection import train_test_split
